@@ -19,6 +19,11 @@ class AdminTablesSeeder extends Seeder
             'username' => 'admin',
             'password' => bcrypt('admin'),
             'name'     => 'Administrator',
+            'status_div' => 1,
+            'registered_administor_id' => 1,
+            'registered_at' => '2019-03-01 00:00:00',
+            'changed_administor_id' => 1,
+            'changed_at' => '2019-03-01 00:00:00'
         ]);
 
         // create a role.
