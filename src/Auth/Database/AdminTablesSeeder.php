@@ -24,7 +24,8 @@ class AdminTablesSeeder extends Seeder
             'registered_administor_id' => 1,
             'registered_at' => '2019-03-01 00:00:00',
             'changed_administor_id' => 1,
-            'changed_at' => '2019-03-01 00:00:00'
+            'changed_at' => '2019-03-01 00:00:00',
+            'updated_id'  => '1'
         ]);
 
         // create a role.
