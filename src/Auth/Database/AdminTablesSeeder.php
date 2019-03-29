@@ -127,6 +127,55 @@ class AdminTablesSeeder extends Seeder
                 'icon'      => 'fa-history',
                 'uri'       => 'auth/logs',
             ],
+            [
+                'parent_id' => 0,
+                'order'     => 8,
+                'title'     => '売り場',
+                'icon'      => 'fa-history',
+                'uri'       => 'departments',
+            ],
+            [
+                'parent_id' => 0,
+                'order'     => 9,
+                'title'     => '商品',
+                'icon'      => 'fa-history',
+                'uri'       => 'items',
+            ],
+            [
+                'parent_id' => 0,
+                'order'     => 10,
+                'title'     => '契約単価',
+                'icon'      => 'fa-history',
+                'uri'       => 'contract_prices',
+            ],
+            [
+                'parent_id' => 0,
+                'order'     => 11,
+                'title'     => '通常価格',
+                'icon'      => 'fa-history',
+                'uri'       => 'standard_price',
+            ],
+            [
+                'parent_id' => 0,
+                'order'     => 12,
+                'title'     => '顧客',
+                'icon'      => 'fa-history',
+                'uri'       => 'users',
+            ],
+            [
+                'parent_id' => 0,
+                'order'     => 13,
+                'title'     => 'ポップ価格',
+                'icon'      => 'fa-history',
+                'uri'       => 'pop_prices',
+            ],
+            [
+                'parent_id' => 0,
+                'order'     => 14,
+                'title'     => '注文履歴',
+                'icon'      => 'fa-history',
+                'uri'       => 'orders',
+            ],
         ]);
 
         // add role to menu.
