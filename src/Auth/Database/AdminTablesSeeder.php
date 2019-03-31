@@ -153,7 +153,7 @@ class AdminTablesSeeder extends Seeder
                 'order'     => 11,
                 'title'     => '通常価格',
                 'icon'      => 'fa-jpy',
-                'uri'       => 'standard_price',
+                'uri'       => 'standard_prices',
             ],
             [
                 'parent_id' => 0,
